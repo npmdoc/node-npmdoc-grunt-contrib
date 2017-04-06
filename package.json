@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"grunt-contrib",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "grunt-contrib",
+    "description": "api documentation for [grunt-contrib (v0.11.0)](https://github.com/gruntjs/grunt-contrib) [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-contrib.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-contrib) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-contrib.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-contrib)",
     "devDependencies": {
-        "grunt-contrib": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "grunt-contrib": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-grunt-contrib",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-grunt-contrib",
+    "keywords": [
+        "documentation",
+        "grunt-contrib"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_grunt_contrib.js",
+    "name": "npmdoc-grunt-contrib",
+    "nameAlias": "npmdoc_grunt_contrib",
+    "nameOriginal": "npmdoc-grunt-contrib",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-grunt-contrib"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
