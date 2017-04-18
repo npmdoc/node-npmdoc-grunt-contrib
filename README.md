@@ -1,9 +1,14 @@
-# api documentation for  [grunt-contrib (v0.11.0)](https://github.com/gruntjs/grunt-contrib)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-contrib.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-contrib) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-contrib.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-contrib)
+# npmdoc-grunt-contrib
+
+#### api documentation for  [grunt-contrib (v0.11.0)](https://github.com/gruntjs/grunt-contrib)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-contrib.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-contrib) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-contrib.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-contrib)
+
 #### The entire grunt-contrib suite.
 
-[![NPM](https://nodei.co/npm/grunt-contrib.png?downloads=true)](https://www.npmjs.com/package/grunt-contrib)
+[![NPM](https://nodei.co/npm/grunt-contrib.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-contrib)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-contrib/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-contrib_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-contrib/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-contrib/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-contrib/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-contrib/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-contrib/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-contrib/build/screenCapture.npmPackageListing.svg)
 
@@ -546,28 +551,22 @@
     ],
     "maintainers": [
         {
-            "name": "tkellen",
-            "email": "tyler@sleekcode.net"
+            "name": "tkellen"
         },
         {
-            "name": "cowboy",
-            "email": "cowboy@rj3.net"
+            "name": "cowboy"
         },
         {
-            "name": "shama",
-            "email": "kyle@dontkry.com"
+            "name": "shama"
         },
         {
-            "name": "vladikoff",
-            "email": "vlad@vladikoff.com"
+            "name": "vladikoff"
         },
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         },
         {
-            "name": "jmeas",
-            "email": "jellyes2@gmail.com"
+            "name": "jmeas"
         }
     ],
     "name": "grunt-contrib",
@@ -601,7 +600,6 @@
         "grunt-contrib-watch": "~0.6.0",
         "grunt-contrib-yuidoc": "~0.5.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/gruntjs/grunt-contrib.git"
@@ -609,16 +607,6 @@
     "version": "0.11.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-contrib](#apidoc.module.grunt-contrib)
-
-
-
-# <a name="apidoc.module.grunt-contrib"></a>[module grunt-contrib](#apidoc.module.grunt-contrib)
 
 
 
