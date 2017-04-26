@@ -1,6 +1,6 @@
 # npmdoc-grunt-contrib
 
-#### api documentation for  [grunt-contrib (v0.11.0)](https://github.com/gruntjs/grunt-contrib)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-contrib.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-contrib) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-contrib.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-contrib)
+#### basic api documentation for  [grunt-contrib (v0.11.0)](https://github.com/gruntjs/grunt-contrib)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-contrib.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-contrib) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-contrib.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-contrib)
 
 #### The entire grunt-contrib suite.
 
@@ -604,7 +604,8 @@
         "type": "git",
         "url": "git://github.com/gruntjs/grunt-contrib.git"
     },
-    "version": "0.11.0"
+    "version": "0.11.0",
+    "bin": {}
 }
 ```
 
